@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../shared/src/index.ts", "../src/index.ts"],
+  "sourcesContent": ["export const isObject = (value) => {\r\n  return typeof value === 'object'&& value !== null\r\n}\r\nexport const isSWZ = (value) => {\r\n  return value === 'SWZ'\r\n}", "import { isSWZ } from '@vue/shared';\r\n\r\nisSWZ('SWZ')\r\n"],
+  "mappings": ";;AAGO,MAAM,QAAQ,CAAC,UAAU;AAC9B,WAAO,UAAU;AAAA,EACnB;;;ACHA,QAAM,KAAK;",
+  "names": []
+}
