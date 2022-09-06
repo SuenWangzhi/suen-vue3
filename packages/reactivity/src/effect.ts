@@ -1,3 +1,3 @@
-export effect = ()=>{
+export const effect = ()=>{
 
 }
